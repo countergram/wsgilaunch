@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+*~
+.DS_Store
+docs/latex
+docs/html/.doctrees
+build
+dist
+docs/html/.buildinfo
