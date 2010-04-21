@@ -21,7 +21,6 @@
 from optparse import OptionParser
 from sys import exit, modules
 
-# TODO add HTTP server
 FLUP_SERVERS = ["ajp", "ajp_fork", "fcgi", "fcgi_fork", "scgi", "scgi_fork"]
 PASTE_SERVERS = ['http']
 SERVERS = PASTE_SERVERS + FLUP_SERVERS
